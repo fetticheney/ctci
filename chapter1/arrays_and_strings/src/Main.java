@@ -19,5 +19,12 @@ public class Main {
 
         System.out.println("\n\nProblem 1.3");
         System.out.println(URLify.urlIfy("The quick brown fox jumped over the lazy dog", 13));
+
+        System.out.println("\n\nProblem 1.4");
+        PalindromePermutation.palindromePermutation("nodtdon");
+
+        System.out.println("\n\nProblem 1.5");
+        System.out.println(OneAway.oneAway("pale", "pale"));
+        System.out.println(OneAway.oneAway("pale", "pald"));
     }
 }
