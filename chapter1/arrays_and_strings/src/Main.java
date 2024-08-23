@@ -26,5 +26,9 @@ public class Main {
         System.out.println("\n\nProblem 1.5");
         System.out.println(OneAway.oneAway("pale", "pale"));
         System.out.println(OneAway.oneAway("pale", "pald"));
+
+        System.out.println("\n\nProblem 1.6");
+        System.out.println(StringCompression.compressString("aabcccccaaa"));
+        System.out.println(StringCompression.compressString("aabbccdd"));
     }
 }
