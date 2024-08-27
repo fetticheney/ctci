@@ -30,5 +30,12 @@ public class Main {
         System.out.println("\n\nProblem 1.6");
         System.out.println(StringCompression.compressString("aabcccccaaa"));
         System.out.println(StringCompression.compressString("aabbccdd"));
+
+        System.out.println("\n\nProblem1.7");
+        int [][] m =  { { 1, 2, 3, 4 },
+                        { 5, 6, 7, 8 },
+                        { 9, 10, 11, 12 },
+                        { 13, 14, 15, 16 } };
+        RotateMatrix.rotateMatrix(m, 4);
     }
 }

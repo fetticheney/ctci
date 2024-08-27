@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class CompressionTokens {
+class   CompressionTokens {
     private char character;
     private int character_count;
 
@@ -51,10 +51,14 @@ public class StringCompression {
 
         if (worthCompression) {
             StringBuilder sb = new StringBuilder();
-            for (int i = 0; i < charCounts.size(); i++) {
-                sb.append(charCounts.get(i).returnToken());
+            for (CompressionTokens charCount : charCounts) {
+                sb.append(charCount.returnToken());
             }
             return sb.toString();
+        }
+
+        for (int i = 0; i < 4/2; i++) {
+            System.out.println(i);
         }
 
         return str;
