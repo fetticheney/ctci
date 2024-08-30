@@ -32,10 +32,18 @@ public class Main {
         System.out.println(StringCompression.compressString("aabbccdd"));
 
         System.out.println("\n\nProblem1.7");
-        int [][] m =  { { 1, 2, 3, 4 },
+        int [][] m1 =  { { 1, 2, 3, 4 },
                         { 5, 6, 7, 8 },
                         { 9, 10, 11, 12 },
                         { 13, 14, 15, 16 } };
-        RotateMatrix.rotateMatrix(m, 4);
+        RotateMatrix.rotateMatrix(m1, 4);
+
+        System.out.println("\n\nProblem 1.8");
+        int [][] m2 =  { { 1, 2, 3, 4 },
+                        { 5, 6, 0, 8 },
+                        { 9, 0, 11, 12 },
+                        { 13, 14, 15, 16 } };
+        ZeroMatrix.zeroMatrix(m2, 4, 4);
+
     }
 }

@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-class   CompressionTokens {
+class CompressionTokens {
     private char character;
     private int character_count;
 
